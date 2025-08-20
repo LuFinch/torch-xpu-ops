@@ -10,6 +10,7 @@ skip_dict = {
         "test_ddp_parity_xpu",
     ),
     "../../../../test/distributed/fsdp/test_fsdp_comm.py": None,
+    "../../../../test/distributed/fsdp/test_fsdp_comm_hooks.py": None,
     "../../../../test/distributed/fsdp/test_fsdp_core.py": (
         "test_delayed_optim_step_offload_false_no_shard_xpu",
         "test_delayed_optim_step_offload_false_none_xpu",
@@ -95,4 +96,11 @@ skip_dict = {
     #    "test_root_module_is_not_FSDP_xpu",
     # ),
     "../../../../test/distributed/fsdp/test_utils.py": None,
+    "../../../../test/distributed/fsdp/test_fsdp_misc.py": None,
+    "../../../../test/distributed/test_functional_api.py": None,
+    "../../../../test/distributed/_tools/test_fsdp2_mem_tracker.py": None,
+    "../../../../test/distributed/_tools/test_mem_tracker.py": None,
+    "../../../../test/distributed/_tools/test_memory_tracker.py": None,
+    "../../../../test/distributed/pipelining/test_backward.py": None,
+    "../../../../test/distributed/pipelining/test_microbatch.py": None,
 }
